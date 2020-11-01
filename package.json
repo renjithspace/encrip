@@ -1,0 +1,20 @@
+{
+  "name": "encrip",
+  "version": "1.0.0",
+  "description": "Tiny, Secure, Zero Dependency and Secret Key Based Encryption",
+  "main": "dist/Encryp.js",
+  "scripts": {
+    "build": "tsc src/Encrip.ts --outDir dist",
+    "test": "mocha --require ts-node/register test/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.14.6",
+    "mocha": "^8.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
