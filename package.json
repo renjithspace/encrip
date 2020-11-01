@@ -1,6 +1,6 @@
 {
   "name": "encrip",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny, Secure, Zero Dependency and Secret Key Based Encryption",
   "main": "dist/Encrip.js",
   "scripts": {
