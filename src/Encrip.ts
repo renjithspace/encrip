@@ -2,7 +2,7 @@ import Decryption from './Decryption'
 import Encryption from './Encryption'
 
 /** Encrip representation */
-export default class Encrip {
+class Encrip {
 
   /**
    * To generate the encrypted value
@@ -26,3 +26,5 @@ export default class Encrip {
     return decryption.decrypt()
   }
 }
+
+module.exports = Encrip
